@@ -1,0 +1,101 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: url(../image/2.jpeg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: new time roman;
+}
+/*header{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	background-image: linear-gradient(to bottom, rgba(0,0,0,.5), transparent);
+}
+.nav{
+	height: 7.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}*/
+
+h1{
+	font-family: 'Montez', cursive;
+	text-align: center;
+	color: white;
+	padding: 10px;
+	font-size: 30px; 
+	background: rgba(0, 0, 0, 0.4);
+}
+
+.registration{
+	margin: auto;
+	width: 40%;
+	text-align: center;
+	color: white;
+	background: rgba(0,0,0,0.5);
+	border: 2px solid white;
+	padding: 5px;
+	box-shadow: -1px 1px 60px 10px black inset;
+
+}
+h2{
+	padding: 5px;
+}
+#name{
+	width: 50%;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid white;
+	outline: 0;
+	font-family: serif;
+	font-size: 18px;
+	background: none;
+	color: white;
+}
+#number{
+	width: 40%;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid white;
+	outline: 0;
+	font-family: serif;
+	font-size: 18px;
+	background: none;
+}
+#num{
+
+	padding: 9px 0px;
+	border-radius: 5px;
+	border: 1px solid white;
+	outline: 0;
+	background: none;
+	
+}
+#check{
+	font-family: serif;
+	font-size: 18px;
+}
+#sub{
+	width: 150px;
+	padding: 5px;
+	font-family: serif;
+	font-size: 18px;
+	border: 1px solid white;
+	outline: 0;
+	border-radius: 5px;
+	background: none;
+	
+}
+#sub:hover{
+	background: #3d6ab1; 
+}
+::placeholder{
+	font-family: serif;
+	color: #fff;
+	font-size: 15px;
+}

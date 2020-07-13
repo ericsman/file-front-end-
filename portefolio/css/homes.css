@@ -1,0 +1,11 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+body{
+	background-image: url(images/photos3.jpeg);
+	background-size: cover;
+	
+}
